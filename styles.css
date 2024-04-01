@@ -96,3 +96,32 @@ body {
     transition: background-color 0.3s;
     margin-top: 20px;
   } */
+
+  .container {
+    display: flex;
+  }
+  
+  .box {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .box-heading {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    /* border-radius: 5px 5px 0 0; */
+    margin-bottom: 20px;
+    width: 610px;
+  }
+  
+  .box-content {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* border-top: none; */
+    /* border-radius: 0 0 5px 5px; */
+    height: 70vh;
+  }
+  
